@@ -39,7 +39,6 @@ onMounted(() => {
         const duration = formatTime(audioEl.duration);
         timeDisplay.value.innerText = currentTime;
         durationDisplay.value.innerText = duration;
-        seekBar.value.value = (audioEl.currentTime / audioEl.duration) * 100;
     });
 
 
