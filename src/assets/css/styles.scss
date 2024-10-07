@@ -7,10 +7,21 @@ $link-decoration: none;
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/variables-dark";
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 
 // 4. Include any default map overrides here
 $custom-colors: (
-    "farve": $cyan-400,
+    "bg": #87b3e0,
+    "mlilla": #493652,
+    "lilla": rgba(145, 146, 194, 0.63),
+    "bg2": rgba(145, 192, 234, 0.94),
+    "green": rgb(207, 197, 180),
+
+
+
+
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -18,3 +29,16 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+body{
+    background-color: #E5C5CF;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+text{
+    color: #493652;
+}
+
+
+
+

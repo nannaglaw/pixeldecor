@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from 'vue-router';
 import Frontpage from "@/views/Frontpage.vue";
-import Whatever from "@/views/Whatever.vue";
+import Decor from "@/views/Decor.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,9 +11,9 @@ const router = createRouter({
           component: Frontpage,
       },
       {
-          path: "/whatever",
-          name: "whatever",
-          component: Whatever,
+          path: "/Decor",
+          name: "decor",
+          component: Decor,
       },
   ]
 })
